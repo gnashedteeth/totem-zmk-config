@@ -26,6 +26,8 @@
 #define Game        8
 #define Gameplus    9
 
+# test build
+
 &mt {
     quick-tap-ms = <100>;
     global-quick-tap;
