@@ -1,4 +1,4 @@
-name: Totem ZMK Build
+name: ZMK Firmware Build
 
 on: [push, pull_request, workflow_dispatch]
 
