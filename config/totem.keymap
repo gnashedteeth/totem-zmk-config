@@ -124,6 +124,7 @@
             key-positions = <9 10>;
         layers = <0>;
             bindings = <&kp BSPC>;
+	};
     };
 
 conditional_layers {
