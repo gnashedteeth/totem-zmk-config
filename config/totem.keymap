@@ -61,70 +61,64 @@
         compatible = "zmk,combos";
         combo_undo {
             timeout-ms = <25>;
-            key-positions = <25 26>;
+            key-positions = <24 25>;
 	    layers = <0>;
             bindings = <&kp LG(Z)>;
         };
         combo_cut {
             timeout-ms = <25>;
-            key-positions = <13 14>;
+            key-positions = <12 13>;
 	    layers = <0>;
             bindings = <&kp LG(X)>;
         };
         combo_copy {
             timeout-ms = <25>;
-            key-positions = <15 16>;
+            key-positions = <14 15>;
 	    layers = <0>;
             bindings = <&kp LG(C)>;
         };
         combo_paste {
             timeout-ms = <25>;
-            key-positions = <27 28>;
+            key-positions = <26 27>;
 	    layers = <0>;
             bindings = <&kp LG(V)>;
         };
         combo_left {
             timeout-ms = <25>;
-            key-positions = <19 20>;
+            key-positions = <18 19>;
 	    layers = <0>;
             bindings = <&kp LEFT>;
         };
         combo_right {
             timeout-ms = <25>;
-            key-positions = <20 21>;
+            key-positions = <19 20>;
 	    layers = <0>;
             bindings = <&kp RIGHT>;
         };
         combo_up {
             timeout-ms = <25>;
-            key-positions = <8 9>;
+            key-positions = <7 8>;
 	    layers = <0>;
             bindings = <&kp UP>;
         };
         combo_down {
             timeout-ms = <25>;
-            key-positions = <32 33>;
+            key-positions = <31 32>;
 	    layers = <0>;
             bindings = <&kp DOWN>;
         };
         combo_end {
             timeout-ms = <25>;
-            key-positions = <31 32>;
+            key-positions = <30 31>;
 	    layers = <0>;
             bindings = <&kp END>;
         };
         combo_home {
             timeout-ms = <25>;
-            key-positions = <7 8>;
+            key-positions = <6 7>;
 	    layers = <0>;
             bindings = <&kp HOME>;
         };
-        combo_bksp {
-            timeout-ms = <25>;
-            key-positions = <9 10>;
-        layers = <0>;
-            bindings = <&kp BSPC>;
-	};
     };
 
 conditional_layers {
@@ -161,8 +155,8 @@ conditional_layers {
         Sym {
             label = "Sym";
             bindings = <
-          &kp TILDE2  &trans    &trans    &trans    &trans      &kp AMPS  &kp STAR   &kp EQUAL   &kp MINUS  &trans
-          &kp LBKT    &kp RBKT  &kp LPAR  &kp RPAR  &trans      &kp DLLR  &kp PRCNT  &kp CARET   &kp BSLH   &kp PIPE2
+          &kp BSLH    &trans    &trans    &trans    &trans      &kp AMPS  &kp STAR   &kp EQUAL   &kp MINUS  &trans
+          &kp LBKT    &kp RBKT  &kp LPAR  &kp RPAR  &trans      &kp DLLR  &kp PRCNT  &kp CARET   &kp BSLH   &kp SQT
 &trans    &kp LBRC    &kp RBRC  &trans    &trans    &trans      &kp EXCL  &kp AT     &kp HASH    &trans     &trans      &trans
                                       &hypr LC(LG(LA(LSHFT))) 0   &kp LCMD  &lt Num BSPC  &lt Sym SPACE  &kp LALT    &meh RC(RA(RSHFT)) 0
             >;
