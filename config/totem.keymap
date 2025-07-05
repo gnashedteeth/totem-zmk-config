@@ -61,7 +61,7 @@
         compatible = "zmk,combos";
         combo_undo {
             timeout-ms = <25>;
-            key-positions = <24 25>;
+            key-positions = <21 22>;
 	    layers = <0>;
             bindings = <&kp LG(Z)>;
         };
