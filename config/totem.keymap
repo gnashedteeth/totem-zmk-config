@@ -24,10 +24,10 @@
 
 
 &mt {
-    quick-tap-ms = <125>;
+    quick-tap-ms = <150>;
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <75>;
+    tapping-term-ms = <100>;
 };
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
