@@ -119,12 +119,6 @@
 	    layers = <0>;
             bindings = <&kp HOME>;
         };
-        combo_SQT {
-            timeout-ms = <25>;
-            key-positions = <18 19>;
-	    layers = <0>;
-            bindings = <&kp SQT>;
-        };
 };
 
 conditional_layers {
@@ -152,7 +146,7 @@ conditional_layers {
             label = "Num";
             bindings = <
                       &kp GRAVE  &trans      &trans    &trans   &trans           &trans    &kp N7  &kp N8  &kp N9  &trans
-                      &kp F1     &kp F2      &kp F3    &kp F4   &kp F5           &kp F6    &kp N4  &kp N5  &kp N6  &kp SQT
+                      &kp F1     &kp F2      &kp F3    &kp F4   &kp F5           &kp F6    &kp N4  &kp N5  &kp N6  &trans
 	&trans        &kp F7     &kp F8      &kp F9    &kp F10  &kp F11          &kp F12   &kp N1  &kp N2  &kp N3  &trans  &trans
                    &mt LCTRL ESC     &mt LCMD TAB    &lt Num BSPC                &lt Sym SPACE   &kp N0  &meh RC(RA(RSHFT)) 0
             >;
@@ -172,7 +166,7 @@ conditional_layers {
             label = "Nav";
             bindings = <
         &bt BT_CLR    &trans        &trans        &trans        &trans            &trans  &trans  &trans  &trans   &trans
-        &kp COLON     &kp C_VOL_UP  &kp C_VOL_DN  &kp C_MUTE    &kp PLUS          &trans  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT
+        &kp COLON     &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE    &kp PLUS          &trans  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &trans  &kp HOME  &kp PG_UP  &kp PG_DN  &kp END  &trans
                                       &mt LCTRL ESC   &mt LCMD TAB  &lt Num BSPC  &lt Sym SPACE  &mt LALT SQT    &meh RC(RA(RSHFT)) 0
             >;
