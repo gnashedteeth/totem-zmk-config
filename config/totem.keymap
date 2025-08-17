@@ -123,6 +123,13 @@
             layers = <0>;
             bindings = <&kp HOME>;
         };
+
+        combo_tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 13>;
+            timeout-ms = <25>;
+            layers = <0>;
+        };
     };
 
     conditional_layers {
