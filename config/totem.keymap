@@ -21,17 +21,21 @@
 
 #define BT(n) BT_SEL n
 
-&mt { tapping-term-ms = <150>; };
-
-// Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
-
-&lt {
-    flavor = "balanced";
-    quick-tap-ms = <25>;
-};
-
 / {
     behaviors {
+
+        &mt { 
+            tapping-term-ms = <150>;
+            flavor = "hold-preferred";
+};
+        
+        // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
+        
+        &lt {
+            flavor = "balanced";
+            quick-tap-ms = <25>;
+        };
+
         hypr: hyper_combo_key_repeat {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
