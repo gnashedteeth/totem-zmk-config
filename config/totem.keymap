@@ -134,7 +134,7 @@
             layers = <0>;
         };
 
-        backtick {
+        combo_grave {
             bindings = <&kp GRAVE>;
             key-positions = <22 24>;
         };
