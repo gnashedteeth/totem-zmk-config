@@ -133,6 +133,11 @@
             timeout-ms = <25>;
             layers = <0>;
         };
+
+        backtick {
+            bindings = <&kp GRAVE>;
+            key-positions = <22 24>;
+        };
     };
 
     conditional_layers {
