@@ -194,10 +194,10 @@
 
         FG {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans       &trans         &trans  &trans     &trans      &trans
-        &trans  &kp S   &kp D   &kp F   &trans       &trans         &kp J   &kp K      &kp L       &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &trans         &kp M   &kp COMMA  &kp PERIOD  &trans  &to 0
-                        &kp Z   &kp X   &kp SPACE    &kp BACKSPACE  &kp N   &trans
+        &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans     &trans      &trans
+        &trans  &kp S   &kp D   &kp F   &trans       &trans  &kp J   &kp K      &kp L       &trans
+&trans  &trans  &trans  &trans  &trans  &trans       &trans  &kp M   &kp COMMA  &kp PERIOD  &trans  &to 0
+                        &kp Z   &kp X   &kp SPACE    &kp P   &kp N   &trans
             >;
         };
     };
